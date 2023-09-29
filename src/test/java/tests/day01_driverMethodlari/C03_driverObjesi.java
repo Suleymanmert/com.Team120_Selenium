@@ -11,13 +11,13 @@ public class C03_driverObjesi {
         driver.manage().window().maximize();
         driver.get("https://www.amazon.com");
 
-        Thread.sleep(3000);
+
         driver.close();
 
         // URL yazarken www demesek de istenen URL'e gider
         // ANCAK https:// yazmazsak gitmez
 
-        Thread.sleep(3000);
+
         driver.close();
     }
 }
