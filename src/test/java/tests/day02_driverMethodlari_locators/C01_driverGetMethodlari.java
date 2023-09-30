@@ -37,7 +37,7 @@ public class C01_driverGetMethodlari {
          */
 
 
-        Thread.sleep(3000);
+
         driver.close();
 
     }
